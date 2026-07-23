@@ -31,6 +31,10 @@ The [Preprocessing notebook](notebooks/Preprocessing.ipynb) handles data cleanin
 - **Type Correction**: Standardized data types for consistency.
 - **Data Export**: The cleaned dataset is saved as a Parquet file for efficient loading during the training phase.
 
+## Model Training (Coming soon)
+
+## Model Evaluation (Coming soon)
+
 ---
 © 2026 Ravindu Wijesundara
 
