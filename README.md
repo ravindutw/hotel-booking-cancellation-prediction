@@ -9,6 +9,10 @@ This project focuses on training classification machine learning models to predi
 - `notebooks/`: Contains Jupyter notebooks for different stages of the machine learning pipeline.
     - [EDA.ipynb](notebooks/EDA.ipynb): Exploratory Data Analysis.
     - [Preprocessing.ipynb](notebooks/Preprocessing.ipynb): Data Cleaning and Preprocessing.
+    - `models/`: Model training and evaluation notebooks.
+        - [LightGBM.ipynb](notebooks/models/LightGBM.ipynb): LightGBM classification model.
+        - [RandomForestClassifier.ipynb](notebooks/models/RandomForestClassifier.ipynb): Random Forest classification model.
+        - [XGBoost.ipynb](notebooks/models/XGBoost.ipynb): XGBoost classification model.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -31,9 +35,17 @@ The [Preprocessing notebook](notebooks/Preprocessing.ipynb) handles data cleanin
 - **Type Correction**: Standardized data types for consistency.
 - **Data Export**: The cleaned dataset is saved as a Parquet file for efficient loading during the training phase.
 
-## Model Training (Coming soon)
+## Model Training
 
-## Model Evaluation (Coming soon)
+The project includes the following classification models for predicting hotel booking cancellations:
+
+- [LightGBM](notebooks/models/LightGBM.ipynb)
+- [Random Forest Classifier](notebooks/models/RandomForestClassifier.ipynb)
+- [XGBoost](notebooks/models/XGBoost.ipynb)
+
+## Model Evaluation
+
+Each model notebook includes model training and evaluation of its cancellation predictions.
 
 ---
 © 2026 Ravindu Wijesundara
