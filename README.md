@@ -1,6 +1,7 @@
 # Hotel Booking Cancellation Prediction
 
 https://github.com/ravindutw/hotel-booking-cancellation-prediction.git
+Dataset: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 
 This project focuses on training classification machine learning models to predict hotel booking cancellations. Predicting whether a guest will cancel their booking is crucial for hotels to optimize revenue and manage room availability.
 
